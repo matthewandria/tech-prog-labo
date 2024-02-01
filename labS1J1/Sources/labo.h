@@ -1,13 +1,16 @@
 /*
 * Déclarer une structure de donnée qui va s'appeler String. La structure va avoir une propriété characters et une propriété length.
 */
-
+typedef struct {
+	char characters;
+	int lenght;
+}String;
 
 /*
-* Faire une fonction qui retourne a sous-tableau de character de celui passer. 
+* Faire une fonction qui retourne un sous-tableau de character de celui passer.(paramètre texte)
 */
 char* sousTexte(char* texte, int from, int to);
-
+	
 
 /*
 * Faire une fonction qui copie le contenu du tableau de character dans la propriété de data
@@ -25,3 +28,5 @@ int String_is_palindrome(String* s);
 * Implémenter la fonction bubble sort et trier le tableau
 */
 void bubbleSort(int elements[], int n);
+
+// Définire
