@@ -128,7 +128,7 @@ int main(int argc, char** argv) {
 		printf("%lld\n", fibonacci(i));
 	//Pour vous corriger verifier les nombres ici: https://coolconversion.com/math/fibonacci-tables/75
 
-	TreeNode* root = tree_create_node("A");
+	/*TreeNode* root = tree_create_node("A");
 	tree_add_node(root, tree_create_node("B"));
 	tree_add_node(root, tree_create_node("C"));
 
@@ -151,7 +151,7 @@ int main(int argc, char** argv) {
 	}
 	else {
 		printf("Vous n'avez pas bien programmer la fonction breath first search, vous avez visité %i nodes et on veut visiter 6 nodes\n", nodes_visited);
-	}
+	}*/
 
 	return 0;
 }

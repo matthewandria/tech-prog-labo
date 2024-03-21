@@ -1,0 +1,5 @@
+﻿  Inventaire.c
+C:\Users\2330168\tech-prog-labo\TP1\TP1\Inventaire.c(18,17): warning C4047: 'fonction' : les niveaux d'indirection de 'FILE **' et de 'char [9]' sont différents
+C:\Users\2330168\tech-prog-labo\TP1\TP1\Inventaire.c(18,17): warning C4024: 'fopen_s' : types différents pour le paramètre formel et réel 1
+C:\Users\2330168\tech-prog-labo\TP1\TP1\Inventaire.c(18,9): error C2198: 'fopen_s' : pas assez d'arguments pour un appel
+C:\Users\2330168\tech-prog-labo\TP1\TP1\Inventaire.c(18,7): warning C4047: '=' : les niveaux d'indirection de 'FILE *' et de 'errno_t' sont différents

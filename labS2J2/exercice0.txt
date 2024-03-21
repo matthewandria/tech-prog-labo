@@ -1,0 +1,14 @@
+exercie0.c Lab2
+
+
+L13 for (i = 0; i < n1; i++) // O(i)
+
+L15 for (j = 0; j < n2; j++) // O(j)
+
+L21 while (i < n1 && j < n2) // O(n)
+
+L33 while (i < n1) // O(i)
+
+L39 while (j < n2) // O(j+k)
+
+Total:

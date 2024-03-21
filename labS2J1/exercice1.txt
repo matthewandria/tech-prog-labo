@@ -1,0 +1,14 @@
+2. Exercice 1.c
+
+Boucles imbriqués:
+L10 for (i = 0; i < n-1; ++i) // O(n)
+
+L13 for (y = i+1; y < n; ++y){ // O(n)
+
+
+Total ; 0(n^2)
+
+L31 for(; i < n-1; ++i ){ // O(n)
+
+
+

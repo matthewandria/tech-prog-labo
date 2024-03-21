@@ -1,0 +1,16 @@
+exercice 2.c
+
+L!2  for (i = 0; arr[i]; ++i) 0(n)
+
+Boucles Imbriqués:
+--
+L15  for (i = 0; i <= RANGE; ++i){ O(n)
+
+L19  for (i = 0; arr[i]; ++i) { O(n)
+
+L24  for (i = 0; arr[i]; ++i){ O(n)
+--
+
+L38   for(; arr[i+1]; ++i ){
+     printf(" %i,",arr[i]); // O(1)
+
